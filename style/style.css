@@ -1,0 +1,298 @@
+body {
+  width: 100%;
+  min-width: 450px;
+  height: 100%;
+  margin: 0px;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/BackgroundLogo.jpg");
+  background-size: cover;
+  height: 700px;
+  margin-top: 0px;
+}
+
+
+.greetingPage {
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 100px;
+  font-family: "Montserrat";
+  align-items: center;
+}
+
+.menu_block {
+  display: grid;
+  grid-template-columns: 1fr 2fr 0.3fr;
+  margin-left: 10px;
+}
+
+.logo {
+  font-size: 26px;
+  color: #fed136;
+  font-family: "WisdomScript";
+  letter-spacing: 10px;
+}
+.menu {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  width: 1000px;
+  margin-left: 200px;
+}
+
+.menu div:hover {
+  font-size: 16px;
+  animation-duration: 5s;
+  color: #fed136;
+}
+
+.welcome_words {
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Droid Serif";
+}
+
+.welcome_greets {
+  font-size: 75px;
+  font-weight: 700;
+}
+
+.btnStyle {
+  background-color: #fed136;
+  font-size: 18px;
+  font-weight: 700;
+  width: 240px;
+  height: 65px;
+  color: rgb(10, 10, 10);
+  margin: auto;
+  border-radius: 8px;
+  border: solid #fed136 2px;
+  cursor: pointer;
+}
+
+.btnStyle:hover {
+  box-shadow: 0 5px 15px #fed136;
+}
+
+.backgroundWhite {
+  background-color: white;
+}
+
+.backgroundYellow {
+  background-color: #fed13626;
+}
+
+.sectionFromMenu {
+  color: black;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.sections {
+  display: grid;
+  margin: 0px 100px 50px 100px;
+  grid-column-gap: 30px;
+  grid-row-gap: 20px;
+  justify-items: center;
+  align-self: end;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.title_class {
+  grid-column: 1/4;
+  padding-top: 55px;
+  font-size: 40px;
+  font-weight: 900;
+  text-decoration: wavy;
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+.secondTitle_class {
+  font-size: 18px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  align-self: end;
+  background-color: white;
+}
+
+p {
+  color: #777777;
+  margin-bottom: 10px;
+}
+
+.descr {
+  grid-column: 1/4;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Droid Serif";
+}
+
+.service {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-row-gap: 10px;
+  justify-items: center;
+  align-self: end;
+}
+
+.service_descr {
+  background-color: white;
+  margin-top: 10px;
+}
+
+.section img {
+  align-self: center;
+}
+
+.section div {
+  align-self: end;
+}
+
+.portfolio img {
+  width: 100%;
+  height: 350px;
+}
+
+.portfolio p {
+  font-style: italic;
+  font-family: "Droid Serif";
+  color: #737373;
+  background-color: white;
+}
+
+.aboutUs {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.icon {
+  width: 145px;
+  height: 145px;
+  margin: auto;
+}
+
+.aboutUs p {
+  margin: 10px;
+}
+
+.lineDown {
+  width: 3px;
+  height: 30px;
+  margin: auto;
+}
+
+.lineUp {
+  width: 3px;
+  height: 30px;
+  margin: auto;
+}
+
+.imgAboutUs {
+  display: flex;
+  flex-direction: column;
+}
+
+.team {
+  margin-bottom: 30px;
+}
+
+.team p {
+  background-color: transparent;
+}
+.team h3 {
+  background-color: transparent;
+}
+
+svg {
+  cursor: pointer;
+}
+
+.team img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.socialMediaIcon {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.logos {
+  height: 165px;
+}
+
+.contact {
+  height: 600px;
+  background: url("../img/BackgroundContactUs.JPG");
+  background-size: cover;
+  color: white;
+}
+
+.line {
+  width: 90%;
+  margin: 30px auto;
+  
+
+}
+.sectionForm {
+  display: grid;
+  margin: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  justify-items: center;
+  align-self: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 200px;
+  width: 1000px;
+}
+.input_class {
+  width: 400px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: #edecf3;
+  border-radius: 8px;
+  border: solid #fed136 2px;
+}
+
+.message {
+  grid-column: 2/2;
+  grid-row: 1/4;
+  color: black;
+}
+
+.btn_grid {
+  grid-column: 2/3;
+  width: 200px;
+  height: 50px;
+}
+
+.address {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.icon_adress {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  width: 25px;
+  margin:auto;
+}
+
+@font-face {
+  font-family: "WisdomScript";
+  src: url("../font/Wisdom\ Script.otf");
+}

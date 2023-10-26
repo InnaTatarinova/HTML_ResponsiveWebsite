@@ -1,0 +1,9 @@
+@media screen and (max-width: 1500px) {
+  .menu {
+    width: 700px;
+    margin-left: 100px;
+  }
+  .sections {
+    margin: 0px 50px 50px 50px;
+  }
+}

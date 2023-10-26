@@ -1,0 +1,25 @@
+@media screen and (max-width:1000px) {
+      .menu {
+        width: 450px;
+        margin-left: 20px;
+      }
+
+      .portfolio img {
+        height: 250px;
+    }
+
+    .team img {
+      height: 200px;
+    }
+
+    .sectionForm {
+      width: 90%;
+      
+    }
+
+    .input_class {
+      width: 90%;
+    }
+   
+    
+}
